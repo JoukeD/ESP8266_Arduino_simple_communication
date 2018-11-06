@@ -1,10 +1,12 @@
-//Program for a Serial.println("WIFI Not Connected"); for an Arduino to communicate with
-//Make the ESP8266 connect with a wifi network by sendin the following string via serial: "<ssid:::password>"
-//After that make a GET request by sending the serial string: "<url>"
-//JoukeD 5-10-2018
+/*
+  ESP8266_Arduino_simple_communication
+  
+  Reads serial input and creates universal communication between arduino for connection the ESP8266 to a Wifi network and making GET-requests.
+  
+  Source code and README to be found at: https://github.com/JoukeD/ESP8266_Arduino_simple_communication
+*/
 
 #include <ESP8266WiFi.h>
-
 #include <ESP8266HTTPClient.h>
 
 long mEVLT = 0;
