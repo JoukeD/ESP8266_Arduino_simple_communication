@@ -9,7 +9,8 @@ After that upload this sketch to the ESP8266 via the Arduino IDE.
 
 Connect an Arduino via serial to the ESP8266.
 
-All the serial commands starting with a "<" and end with a ">" wil be read by the ESP8266, according to the [brainchild of Robin2](https://forum.arduino.cc/index.php?topic=288234.0)
+All the serial commands starting with a "<" and end with a ">" wil be read by the ESP8266, according to the [brainchild of Robin2](https://forum.arduino.cc/index.php?topic=288234.0).
+
 Commands that need multiple value's will have the values split with ":::".
 
 ## Commands
